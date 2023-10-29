@@ -1,7 +1,9 @@
-const Home = ()=> {
+import Slider from "./Components/Slider"
+
+const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home page
+    <main>
+      <Slider />
     </main>
   )
 }
