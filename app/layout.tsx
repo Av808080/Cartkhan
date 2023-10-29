@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Fira_Code, Fira_Sans, Agdasima, Fira_Sans_Extra_Condensed, Monoton, Ubuntu_Mono } from 'next/font/google'
 import './globals.css'
+import Navbar from './Components/Navbar'
 
 const inter = Fira_Sans({ subsets: ['latin'], weight: '400', style: 'normal' })
 
@@ -15,9 +16,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="fa" dir='rtl'>
       <body className={inter.className}>
-        <nav className='h-8 bg-slate-500'>Navbar</nav>
+        <Navbar/>
         {children}
       </body>
     </html>
