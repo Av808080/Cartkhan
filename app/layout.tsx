@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Fira_Code, Fira_Sans, Agdasima, Fira_Sans_Extra_Condensed, Monoton, Ubuntu_Mono } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Fira_Sans({ subsets: ['latin'], weight: '400', style: 'normal' })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className='h-8 bg-slate-500'>Navbar</nav>
+        {children}
+      </body>
     </html>
   )
 }
