@@ -18,11 +18,11 @@ const Slider = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        <SwiperSlide><Image className='w-full md:h-[520px] h-[330px] ' src='/SliderImages/slide1.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
-        <SwiperSlide><Image className='w-full md:h-[520px] h-[330px] ' src='/SliderImages/slide4.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
-        <SwiperSlide><Image className='w-full md:h-[520px] h-[330px] ' src='/SliderImages/slide9.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
-        <SwiperSlide><Image className='w-full md:h-[520px] h-[330px] ' src='/SliderImages/slide8.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
-        <SwiperSlide><Image className='w-full md:h-[520px] h-[330px] ' src='/SliderImages/slide3.jpg' alt='slide 1' width={1000} height={1000} /></SwiperSlide>
+        <SwiperSlide><Image className='w-full md:h-[550px] h-[330px] ' src='/SliderImages/slide1.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
+        <SwiperSlide><Image className='w-full md:h-[550px] h-[330px] ' src='/SliderImages/slide4.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
+        <SwiperSlide><Image className='w-full md:h-[550px] h-[330px] ' src='/SliderImages/slide9.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
+        <SwiperSlide><Image className='w-full md:h-[550px] h-[330px] ' src='/SliderImages/slide8.jpg' alt='slide 2' width={1000} height={1000} /></SwiperSlide>
+        <SwiperSlide><Image className='w-full md:h-[550px] h-[330px] ' src='/SliderImages/slide3.jpg' alt='slide 1' width={1000} height={1000} /></SwiperSlide>
       </Swiper>
   )
 }
